@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+{%extends 'basicApp/base.html'%}
+{%block block_title%}
+   <title>Relative Block</title>
+{%endblock%}
+{%block body_block%}
+
+<a href="{% url 'userBasicApp:relative'%}" class='btn btn-primary'>Relative Template Page</a>
+||<a href="{% url 'userBasicApp:other'%}" class='btn btn-primary'>otherTemplate Page</a>
+||<a href="{% url 'userBasicApp:basic'%}" class='btn btn-primary'>Basic Template Page</a>
+{%endblock%}

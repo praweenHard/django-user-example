@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <h1>Welcome to basic html</h1>
+    <a href="{% url 'userBasicApp:relative'%}" class='btn btn-primary'>Relative Template Page</a>
+    ||<a href="{% url 'userBasicApp:other'%}" class='btn btn-primary'>otherTemplate Page</a>
+    ||<a href="{% url 'userBasicApp:basic'%}" class='btn btn-primary'>Basic Template Page</a>
+
+
+  </body>
+</html>
